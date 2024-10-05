@@ -8,6 +8,7 @@ const fn = (a, b) => {
   });
 };
 
+
 (async () => {
   try {
 		const res = await fn(1, '2'); // error arg
