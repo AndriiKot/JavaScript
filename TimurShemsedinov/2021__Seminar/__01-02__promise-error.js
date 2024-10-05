@@ -10,7 +10,7 @@ const fn = (a, b) => {
 
 (async () => {
   try {
-    const res = await fn(1, '2'); // error arg
+  	const res = await fn(1, '2'); // error arg
 	  console.log({ res });
 	} catch (err) {
 	  console.log(err.stack);
